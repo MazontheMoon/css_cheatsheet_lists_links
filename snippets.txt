@@ -1,3 +1,5 @@
+https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
+
 <span class="really-look-at-me-text"></span> - Bold & Italic
 
 <span class="look-at-me-text"></span> - Italic
@@ -6,6 +8,7 @@
 
 
 Colour palette:
+Linear gradient & 5 x colour sets (Dark and lighter hue)
 
 colour var = hsla/rgb, fallback = hex
 
