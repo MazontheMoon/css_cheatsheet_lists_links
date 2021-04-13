@@ -1,0 +1,11 @@
+<span class="really-look-at-me-text"></span> - Bold & Italic
+
+<span class="look-at-me-text"></span> - Italic
+
+<span class="code-word"></span> - Highlight with background colour/font and size
+
+
+Colour palette:
+
+colour var = hsla/rgb, fallback = hex
+
