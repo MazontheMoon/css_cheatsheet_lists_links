@@ -8,7 +8,35 @@ https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
 
 
 Colour palette:
-Linear gradient & 5 x colour sets (Dark and lighter hue)
+Linear gradient & 5 x colour sets (Dark outline & transparant inner section?)
+
+Navy Blue
+#03045E
+hsl(239, 94%, 19%)
+rgb(3, 4, 94)
+
+Bright Blue
+#0077b6
+hsl(201, 100%, 36%)
+rgb(0, 119, 182)
+
+Cerulean
+#00b4d8
+hsl(190, 100%, 42%)
+rgb(0, 180, 216)
+
+Sky Blue
+#90E0EF
+hsl(189, 75%, 75%)
+rgb(144, 224, 239)
+
+Baby Blue
+#caf0f8
+hsl(190, 77%, 88%)
+rgb(202, 240, 248)
+
+
 
 colour var = hsla/rgb, fallback = hex
+
 
