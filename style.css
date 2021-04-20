@@ -2,10 +2,12 @@
 Variables
 ==============*/
 :root {
-    /*color scheme*/
-  
-    /*font and text*/
-  }
+  /*color scheme*/
+
+  /*font and text*/
+  --font: "Ubuntu Mono", monospace;
+  --header-font: bold 3em/1.5 "Ubuntu Mono", monospace;
+}
   
   
   /*======================================

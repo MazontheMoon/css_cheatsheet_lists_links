@@ -6,6 +6,7 @@ https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
 
 <span class="code-word"></span> - Highlight with background colour/font and size
 
+font-family: 'Ubuntu Mono', monospace;
 
 Colour palette:
 Linear gradient & 5 x colour sets (Dark outline & transparant inner section?)
