@@ -1,4 +1,4 @@
-# CSS Cheatsheet - Text
+# CSS Cheatsheet - Lists and Links
  My cheatsheets to teach myself coding and frontend development - this lesson is for lists ans links
 
  ## Prerequisites
@@ -15,6 +15,7 @@
 
  * VS Code
  * CodePen
+ * Git and Git Desktop
 
 ## Versioning
 
