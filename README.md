@@ -52,7 +52,7 @@ Examples:
 * Coolors.co
 
 ## Acknowledgments
-We would like to offer our appreciation to Spotify and the *This is:Ramin Dwanji* playlist for providing the suitable accompaniment for this project
+We would like to offer our appreciation to Spotify and the *This is:Ramin Dwanji* playlist for providing the suitable background music for this project
 
 ## License
 
