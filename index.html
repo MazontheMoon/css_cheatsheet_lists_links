@@ -127,18 +127,51 @@ Finding your way around
       <!--Section 1 - Lists - Subsection 3 List Style Image-->
       <div class="subsection" id="list_image_subsec">
         <h3>list-style-image</h3>
-        <p>...allows .</p>
+        <p>...allows you to use a custom image for your bullet..</p>
+        <p>This property is limited in terms of controlling position, size, etc and instead can use the background family of properties:</p>
         <div class="code_box">
-          <code></code>
+          <code>
+            ul {<br>
+            padding-left: 2rem;<br>
+            list-style-type: none;<br>
+            }<br>
+            <br>
+            ul li {<br>
+            padding-left: 2rem;<br>
+            background-image: url(star.svg);<br>
+            background-position: 0 0;<br>
+            background-size: 1.6rem 1.6rem;<br>
+            background-repeat: no-repeat;<br>
+            }
+          </code>
         </div>
-        <div id="list_image_examples"></div>
+        <div id="list_image_examples">
+          <ul>
+            <li>Look</li>
+            <li>At</li>
+            <li>My</li>
+            <li>Bullets</li>
+          </ul>
+        </div>
       </div>
       <!--Section 1 - Lists - Subsection 4 List Style-->
       <div class="subsection" id="list_style_subsec">
         <h3>list-style</h3>
-        <p>...allows .</p>
+        <p>... is the shorthand to set <span class="code-word">list-style-type</span>, <span class="code-word">list-style-position</span> and <span class="code-word">list-style-image</span>.</p>
         <div class="code_box">
-          <code></code>
+          <code>ul {<br>
+            list-style-type: square;<br>
+            list-style-image: url(example.png);<br>
+            list-style-position: inside;<br>
+            }
+</code>
+          <p>could instead be...</p>
+          <code>
+            ul {<br>
+            list-style: square url(example.png) inside;<br>
+            }
+          </code>
+          <p>The values can be listed in any order and you can use one, two or all three (default for values not specified are <span class="look-at-me-text">disc</span>, <span class="look-at-me-text">none</span> and <span class="look-at-me-text">outside</span>).</p>
         </div>
         <div id="list_image_examples"></div>
       </div>
