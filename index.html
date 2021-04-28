@@ -164,7 +164,7 @@ Finding your way around
             list-style-image: url(example.png);<br>
             list-style-position: inside;<br>
             }
-</code>
+          </code>
           <p>could instead be...</p>
           <code>
             ul {<br>
@@ -179,6 +179,48 @@ Finding your way around
     <!--Section 2 - Links-->
     <section id="link_sec">
       <h2>Links</h2>
+      <div class="subsection">
+        <p>Link states are:</p>
+        <ul>
+          <li>link (unvisited)</li>
+          <li>visited</li>
+          <li>hover</li>
+          <li>focus (keyboard select)</li>
+          <li>active</li>
+        </ul>
+        <p>Tip: to test links use # instead of the url to link back to same page.</p>
+        <p>Default link stying:</p>
+        <ul>
+          <li>Links are underlined</li>
+          <li>Unvisited links are blu</li>
+          <li>Visited links are purple</li>
+          <li>Hovering over a link will make the mouse pointer change to a little hand icon</li>
+          <li>Focused links will have an outline around them</li>
+          <li>Active links are red</li>
+        </ul>
+        <div class="code_box">
+          <p>The order the links are styled in is IMPORTANT</p>
+          <code>
+            a {…}<br>
+            a:link {…}<br>
+            a:visited {…}<br>
+            a:focus {…}<br>
+            a:hover {…}<br>
+            a:active {…}
+          </code>
+        </div>
+        <div class="code_box">
+          <p>A good practice is include icons in links to indicate what type of link it is (opens external site for example)</p>
+          <code>
+            a[href*="http"] {<br>
+            background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;<br>
+            background-size: 16px 16px;
+            padding-right: 19px;<br>
+            }
+          </code>
+
+        </div>
+      </div>
     </section>
   </main>
   <footer>
