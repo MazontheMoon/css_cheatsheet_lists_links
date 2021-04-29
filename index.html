@@ -33,14 +33,26 @@ Finding your way around
 3.
 =========================-->
 
+<!--==================================================
+My CSS Cheat Sheet for learning CSS - Lists and Links
+====================================================-->
+
+<!--=====================
+Finding your way around
+=========================
+1. Heading title
+2. Nav menu (only on screen < 1024px)
+3.
+=========================-->
+
 <body>
   <header>
     <h1>Links &amp; Lists</h1>
   </header>
   <nav>
     <ul>
-      <li><a href="#">Lists</a></li>
-      <li><a href="#">Links</a></li>
+      <li><a href="#list_sec">Lists</a></li>
+      <li><a href="#link_sec">Links</a></li>
     </ul>
   </nav>
   <main>
@@ -50,10 +62,10 @@ Finding your way around
       <div class="subsection">
         <p>Lists behave like any other text for the most part but there are a few specific CSS properties for &lt;ol&gt; and &lt;ul&gt; list (no other styles applied to &lt;dl&gt; lists)</p>
         <ul id="list_sec_menu">
-          <li><a href="#">list-style-type</a></li>
-          <li><a href="#">list-style-position</a></li>
-          <li><a href="#">list-style-image</a></li>
-          <li><a href="#">list-style</a></li>
+          <li><a href="#list_type_subsec">list-style-type</a></li>
+          <li><a href="#list_position_subsec">list-style-position</a></li>
+          <li><a href="#list_image_subsec">list-style-image</a></li>
+          <li><a href="#list_style_subsec">list-style</a></li>
         </ul>
       </div>
       <!--Section 1 - Lists - Subsection 1 List Style Type-->
@@ -173,7 +185,7 @@ Finding your way around
           </code>
           <p>The values can be listed in any order and you can use one, two or all three (default for values not specified are <span class="look-at-me-text">disc</span>, <span class="look-at-me-text">none</span> and <span class="look-at-me-text">outside</span>).</p>
         </div>
-        <div id="list_image_examples"></div>
+        <div id="list_in_out_examples"></div>
       </div>
     </section>
     <!--Section 2 - Links-->
@@ -210,7 +222,7 @@ Finding your way around
           </code>
         </div>
         <div class="code_box">
-          <p>A good practice is include icons in links to indicate what type of link it is (opens external site for example)</p>
+          <p>A good practice is to include icons in links to show what type of link it is (opens external site for example)</p>
           <code>
             a[href*="http"] {<br>
             background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;<br>
@@ -224,7 +236,14 @@ Finding your way around
     </section>
   </main>
   <footer>
-    <div id="made_by_me"></div>
+    <div id="made_by_me">
+      <p>Designed by <abbr title="Mary Ronan">MazOnTheMoon</abbr> 2021</p>
+      <p><a href="https://www.linkedin.com/in/mary-ronan/" target="_blank"> <span class="fab fa-linkedin"> </span></a>
+        <a href="https://github.com/MazontheMoon" target="_blank"> <span class="fab fa-github-square"> </span></a>
+        <a href="https://codepen.io/mazonthemoon/#" target="_blank"> <span class="fab fa-codepen"> </span></a>
+        <a href="https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/" target="_blank"> <span class="fab fa-wordpress"> </span></a>
+      </p>
+    </div>
   </footer>
 </body>
 </html>
