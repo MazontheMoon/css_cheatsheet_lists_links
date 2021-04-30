@@ -15,8 +15,21 @@ var();
 Colour palette:
 Linear gradient & 5 x colour sets (Dark outline & transparant inner section?)
 
---section1-border
---section1-inner
+  --body-back-col: #0f0f0f;
+  --body-col: #f5f5f5;
+  --header-border-col: hsl(239, 94%, 19%); /*navy blue*/
+  --nav-border-col: hsl(201, 100%, 36%); /*bright blue*/
+  --section-border-col: hsl(190, 100%, 42%); /*cerulean*/
+  --sub-section-border-col: hsl(189, 75%, 75%); /*sky blue*/
+  --code-border-col: hsl(190, 77%, 88%); /*powder blue*/
+  
+  
+var(--header-border-col, #03045E);
+var(--nav-border-col, #0077b6);
+var(--section-border-col, #00b4d8);
+var(--sub-section-border-col, #90E0EF);
+var(--code-border-col, #caf0f8);
+
 
 Navy Blue
 #03045E

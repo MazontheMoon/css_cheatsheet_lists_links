@@ -2,9 +2,13 @@
 Variables
 ==============*/
 :root {
-  /*color scheme*/
-  --section1-border-col: hsl(239, 94%, 19%);
-  --section1-inner-col: hsla(239, 94%, 19%, 0.5);
+  /*color scheme - main background colour and font colour set in media query based on light/dark user preference*/
+  --header-border-col: hsl(239, 94%, 19%); /*navy blue*/
+  --nav-border-col: hsl(201, 100%, 36%); /*bright blue*/
+  --section-border-col: hsl(190, 100%, 42%); /*cerulean*/
+  --sub-section-border-col: hsl(189, 75%, 75%); /*sky blue*/
+  --code-border-col: hsl(190, 77%, 88%); /*powder blue*/
+
   /*font and text*/
   --font: "Ubuntu Mono", monospace;
   --header-font: bold 3rem/1.5 "Ubuntu Mono", monospace;
@@ -50,8 +54,11 @@ li {
 /*=====
   Header 
   =======*/
-header {
-  background-color: hsla(239, 94%, 19%, 0.6);
+
+/*text shows gradient color for header and footer*/
+header,
+footer {
+  background-color: var(--header-border-col, #03045e);
   background-image: linear-gradient(
     to bottom,
     hsl(239, 94%, 19%),
@@ -69,36 +76,16 @@ header h1 {
   font: var(--header-font);
   text-align: center;
 }
+
 /*=======
-  Nav Menu
-  =========*/
+ Nav Menu
+=========*/
 nav {
-  background-color: hsl(201, 100%, 36%);
-  padding: 1rem;
-}
-
-nav ul {
-  background-color: white;
-}
-
-nav ul li {
-  background-color: hsla(201, 100%, 36%, 0.6);
+  border-top: 0.3rem solid white;
 }
 /*==========================
   Main and Section containers
   ===========================*/
-main {
-  background-color: hsla(239, 94%, 19%, 0.6);
-  /*
-  background-image: linear-gradient(
-    to bottom,
-    hsl(239, 94%, 19%),
-    hsl(201, 100%, 36%),
-    hsl(190, 100%, 42%),
-    hsl(189, 75%, 75%),
-    hsl(190, 77%, 88%)
-  );*/
-}
 
 /*====
   Footer
@@ -130,8 +117,10 @@ main {
 }
 
 @media (prefers-color-scheme: light) {
-  --body-back-col: #f5f5f5;
-  --body-col: #0f0f0f;
+  body {
+    --body-back-col: #f5f5f5;
+    --body-col: #0f0f0f;
+  }
 }
 
 /*Reset to user browser preference*/
