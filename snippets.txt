@@ -8,9 +8,8 @@ https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
 
 font-family: 'Ubuntu Mono', monospace;
 
-var(--body-backcol);
-var(--body-col);
-var();
+var(--font)
+var(--header-font)
 
 Colour palette:
 Linear gradient & 5 x colour sets (Dark outline & transparant inner section?)
