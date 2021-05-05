@@ -85,6 +85,7 @@ header h1 {
 =========*/
 nav {
   border-top: 0.3rem solid white;
+  border-bottom: 0.3rem solid white;
 }
 
 nav ul {
@@ -116,18 +117,47 @@ nav ul li:hover a {
   Main and Section containers
 ===========================*/
 main {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 section {
   border-left: solid 0.3rem;
+  border-image: linear-gradient(
+      to bottom,
+      hsl(239, 94%, 19%),
+      hsl(201, 100%, 36%),
+      hsl(190, 100%, 42%),
+      hsl(189, 75%, 75%),
+      hsl(190, 77%, 88%)
+    )
+    20;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 
 section h2 {
   font-size: 2rem;
-  border-bottom: solid 0.1rem;
+}
+
+section #list_sec_menu {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+section #list_sec_menu li {
+  margin: 0.3rem;
+  padding: 0.3rem;
+  border-left: solid 0.1rem;
+}
+
+section #list_sec_menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section #list_sec_menu li:hover a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 section .subsection {
