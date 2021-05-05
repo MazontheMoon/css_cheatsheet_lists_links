@@ -43,8 +43,11 @@ h1,
 h2,
 h3,
 p,
-li {
-  font-family: Verdana, sans-serif;
+a,
+li,
+code {
+  font-family: Verdana, sans-serif; /*fallback*/
+  font-family: var(--font);
 }
 
 /*================
@@ -56,7 +59,8 @@ li {
   =======*/
 
 /*text shows gradient color for header and footer*/
-header, footer {
+header,
+footer {
   background-color: var(--header-border-col, #03045e);
   background-image: linear-gradient(
     to bottom,
@@ -92,10 +96,10 @@ nav ul {
 }
 
 nav ul li {
-  padding 1rem;
+  padding: 0.5rem;
   font: 2rem var(--font);
-  border-bottom: 0.2rem solid; 
-  border-top: 0.2rem solid; 
+  border-bottom: 0.2rem solid;
+  border-top: 0.2rem solid;
 }
 
 nav ul li a {
@@ -105,13 +109,36 @@ nav ul li a {
   padding: 0.5rem;
 }
 
-nav ul li:hover a{
+nav ul li:hover a {
   color: var(--nav-border-col);
 }
 /*==========================
   Main and Section containers
-  ===========================*/
+===========================*/
+main {
+  padding: 1rem;
+}
 
+section {
+  border-left: solid 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  border-bottom: solid 0.1rem;
+}
+
+section .subsection {
+  margin: 1rem;
+}
+
+section .subsection h3 {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-bottom: 0.5rem;
+}
 /*====
   Footer
   =======*/
