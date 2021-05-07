@@ -213,6 +213,92 @@ section .subsection {
 #list_sec .subsection ol li {
   padding: 0.3rem 0.5rem;
 }
+
+/*LIST TYPE EXAMPLES*/
+#list_type_examples ul #list_circle {
+  list-style-type: circle;
+}
+
+#list_type_examples ul #list_disc {
+  list-style-type: disc;
+}
+
+#list_type_examples ul #list_square {
+  list-style-type: square;
+}
+
+#list_type_examples ol #list_decimal {
+  list-style-type: decimal;
+}
+
+#list_type_examples ol #list_decimal_zero {
+  list-style-type: decimal-leading-zero;
+}
+
+#list_type_examples ol #list_l_alpha {
+  list-style-type: lower-alpha;
+}
+
+#list_type_examples ol #list_l_greek {
+  list-style-type: lower-greek;
+}
+
+#list_type_examples ol #list_l_latin {
+  list-style-type: lower-latin;
+}
+
+#list_type_examples ol #list_l_roman {
+  list-style-type: lower-roman;
+}
+
+#list_type_examples ol #list_u_alpha {
+  list-style-type: upper-alpha;
+}
+
+#list_type_examples ol #list_u_greek {
+  list-style-type: upper-greek;
+}
+
+#list_type_examples ol #list_u_latin {
+  list-style-type: upper-latin;
+}
+
+#list_type_examples ol #list_u_roman {
+  list-style-type: upper-roman;
+}
+
+#list_type_examples ol #list_armenian {
+  list-style-type: armenian;
+}
+
+#list_type_examples ol #list_cjk {
+  list-style-type: cjk-ideographic;
+}
+
+#list_type_examples ol #list_georgian {
+  list-style-type: georgian;
+}
+
+#list_type_examples ol #list_hebrew {
+  list-style-type: hebrew;
+}
+
+#list_type_examples ol #list_hiragana {
+  list-style-type: hiragana;
+}
+
+#list_type_examples ol #list_hiragana-iroha {
+  list-style-type: hiragana-iroha;
+}
+
+#list_type_examples ol #list_katakana {
+  list-style-type: katakana;
+}
+
+#list_type_examples ol #list_katakana-iroha {
+  list-style-type: katakana-iroha;
+}
+
 /*====
   Footer
   =======*/
