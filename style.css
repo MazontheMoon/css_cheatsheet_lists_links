@@ -31,13 +31,17 @@ body {
   ================================*/
 
 body * {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 /*reset default font - never shall Time New Roman be seen again!*/
 h1,
 h2,
@@ -99,8 +103,6 @@ nav ul {
 nav ul li {
   padding: 0.5rem;
   font: 2rem var(--font);
-  border-bottom: 0.2rem solid;
-  border-top: 0.2rem solid;
 }
 
 nav ul li a {
@@ -110,7 +112,9 @@ nav ul li a {
   padding: 0.5rem;
 }
 
-nav ul li:hover a {
+nav ul li:hover a,
+nav ul li:focus a,
+nav ul li:active a {
   color: var(--nav-border-col);
 }
 /*==========================
@@ -299,6 +303,70 @@ section .subsection {
   list-style-type: katakana-iroha;
 }
 
+/*LIST POSITION EXAMPLES*/
+
+#list_position_examples ol li {
+  border: solid 1px;
+  margin: 0.3rem;
+}
+
+#list_position_examples ol #list_outside {
+  list-style-position: outside;
+}
+
+#list_position_examples ol #list_inside {
+  list-style-position: inside;
+}
+
+/*LIST IMAGE EXAMPLES*/
+
+#list_image_examples ul li {
+  padding-left: 2rem;
+  background-image: url(https://raw.githubusercontent.com/MazontheMoon/css_cheatsheet_lists_links/master/img/star.svg);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
+/*LINK STYLING*/
+
+#link_sec ul li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.link_styles {
+  list-style: none;
+}
+
+.link_styles li:nth-child(1) {
+  text-decoration: underline;
+}
+
+.link_styles li:nth-child(2) {
+  text-decoration: underline;
+  color: blue;
+}
+
+.link_styles li:nth-child(3) {
+  text-decoration: underline;
+  color: purple;
+}
+
+.link_styles li:nth-child(4):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link_styles li:nth-child(5) {
+  text-decoration: underline;
+  outline: solid 1px;
+}
+
+.link_styles li:nth-child(6) {
+  text-decoration: underline;
+  color: red;
+}
 /*====
   Footer
   =======*/
