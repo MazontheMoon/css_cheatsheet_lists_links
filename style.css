@@ -63,8 +63,7 @@ code {
   =======*/
 
 /*text shows gradient color for header and footer*/
-header,
-footer {
+header {
   background-color: var(--header-border-col, #03045e);
   background-image: linear-gradient(
     to bottom,
@@ -136,7 +135,7 @@ section {
     )
     20;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 section h2 {
@@ -328,6 +327,21 @@ section .subsection {
   background-repeat: no-repeat;
 }
 
+#list_image_examples ul li:nth-child(1) {
+  background-image: url(https://raw.githubusercontent.com/MazontheMoon/css_cheatsheet_lists_links/master/img/jedi-order-brands.svg);
+}
+
+#list_image_examples ul li:nth-child(2) {
+  background-image: url(https://raw.githubusercontent.com/MazontheMoon/css_cheatsheet_lists_links/master/img/old-republic-brands.svg);
+}
+
+#list_image_examples ul li:nth-child(3) {
+  background-image: url(https://raw.githubusercontent.com/MazontheMoon/css_cheatsheet_lists_links/master/img/galactic-republic-brands.svg);
+}
+
+#list_image_examples ul li:nth-child(4) {
+  background-image: url(https://raw.githubusercontent.com/MazontheMoon/css_cheatsheet_lists_links/master/img/galactic-senate-brands.svg);
+}
 /*LINK STYLING*/
 
 #link_sec ul li {
@@ -337,6 +351,16 @@ section .subsection {
 
 .link_styles {
   list-style: none;
+  border-left: 0.3rem solid;
+  border-image: linear-gradient(
+      to bottom,
+      hsl(239, 94%, 19%),
+      hsl(201, 100%, 36%),
+      hsl(190, 100%, 42%),
+      hsl(189, 75%, 75%),
+      hsl(190, 77%, 88%)
+    )
+    20;
 }
 
 .link_styles li:nth-child(1) {
@@ -353,6 +377,9 @@ section .subsection {
   color: purple;
 }
 
+.link_styles li:nth-child(4) {
+  text-decoration: underline;
+}
 .link_styles li:nth-child(4):hover {
   text-decoration: underline;
   cursor: pointer;
@@ -371,6 +398,54 @@ section .subsection {
   Footer
   =======*/
 
+footer {
+  background-color: var(--header-border-col, #03045e);
+  background-image: linear-gradient(
+    to top,
+    hsl(239, 94%, 19%),
+    hsl(201, 100%, 36%),
+    hsl(190, 100%, 42%),
+    hsl(189, 75%, 75%),
+    hsl(190, 77%, 88%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.3);
+  padding: 0 1rem 1rem;
+}
+
+footer #made_by_me {
+  text-align: center;
+}
+
+#made_by_me p {
+  line-height: 1.8;
+}
+
+#made_by_me a {
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  padding: 0.25rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#made_by_me a:link {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#made_by_me a:visited {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#made_by_me a:focus,
+#made_by_me a:hover {
+  color: var(--body-col);
+}
+
+#made_by_me a:active {
+  border: 1px dotted;
+}
+
 /*================
   The little touches
   =================*/
@@ -380,10 +455,12 @@ section .subsection {
 /*================
   Responsivesnness
   ==================*/
-/*
-  @media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: none;
   }
-  */
+}
 
 /*=============
   Accessibility
