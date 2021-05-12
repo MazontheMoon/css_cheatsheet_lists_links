@@ -59,4 +59,12 @@ rgb(202, 240, 248)
 
 colour var = hsla/rgb, fallback = hex
 
+https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/jedi-order-brands.svg?raw=true
 
+https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/old-republic-brands.svg?raw=true
+
+https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/galactic-republic-brands.svg?raw=true
+
+https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/galactic-senate-brands.svg?raw=true
+
+https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/star.svg?raw=true
