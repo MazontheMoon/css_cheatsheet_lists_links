@@ -24,6 +24,7 @@ body {
   scroll-behavior: smooth;
   background-color: var(--body-back-col);
   color: var(--body-col);
+  font-size: 16px;
 }
 
 /*===============================
@@ -192,7 +193,8 @@ section .subsection {
   display: inline-block;
   margin: 1rem 0;
   padding: 1rem;
-  background-color: var(--nav-border-col);
+  background-color: var(--nav-border-col, #0077b6);
+  border: 2px solid var(--code-border-col, #caf0f8);
 }
 
 .code_box p {
@@ -320,32 +322,17 @@ section .subsection {
 /*LIST IMAGE EXAMPLES*/
 
 #list_image_examples ul {
-  list-style-type: none;
 }
 
 #list_image_examples ul li {
-  padding-left: 3rem;
-  background-image: url(https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/star.svg?raw=true);
-  background-position: 0 0;
-  background-size: 1.6rem 1.6rem;
-  background-repeat: no-repeat;
+  font-size: 150%;
+  list-style-image: linear-gradient(
+    to left bottom,
+    var(--header-border-col, #03045e),
+    var(--code-border-col, #caf0f8)
+  );
 }
 
-#list_image_examples ul li:nth-child(1) {
-  background-image: url(https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/jedi-order-brands.svg?raw=true);
-}
-
-#list_image_examples ul li:nth-child(2) {
-  background-image: url(https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/old-republic-brands.svg?raw=true);
-}
-
-#list_image_examples ul li:nth-child(3) {
-  background-image: url(https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/galactic-republic-brands.svg?raw=true);
-}
-
-#list_image_examples ul li:nth-child(4) {
-  background-image: url(https://github.com/MazontheMoon/css_cheatsheet_lists_links/blob/main/galactic-senate-brands.svg?raw=true);
-}
 /*LINK STYLING*/
 
 #link_sec ul li {
