@@ -122,6 +122,7 @@ nav ul li:active a {
 ===========================*/
 main {
   padding: 0.5rem;
+  position: relative;
 }
 
 section {
@@ -139,6 +140,10 @@ section {
   margin-top: 1rem;
 }
 
+section div {
+  position: relative; /*for backtotop shortcut*/
+}
+
 section h2 {
   font-size: 2rem;
 }
@@ -151,7 +156,7 @@ section #list_sec_menu {
 section #list_sec_menu li {
   margin: 0.3rem;
   padding: 0.3rem;
-  border-left: solid 0.1rem;
+  border-left: solid 0.1rem var(--nav-border-col, #0077b6);
 }
 
 section #list_sec_menu li a {
@@ -161,6 +166,7 @@ section #list_sec_menu li a {
 
 section #list_sec_menu li:hover a {
   text-decoration: underline;
+  text-decoration-color: var(--nav-border-col, #0077b6);
   text-underline-offset: 4px;
 }
 
@@ -190,11 +196,11 @@ section .subsection {
   line-height: 200%;
 }
 .subsection .code_box {
-  display: inline-block;
+  display: block;
   margin: 1rem 0;
   padding: 1rem;
   background-color: var(--nav-border-col, #0077b6);
-  border: 2px solid var(--code-border-col, #caf0f8);
+  border: 2px solid var(--body-col);
 }
 
 .code_box p {
@@ -442,15 +448,31 @@ footer #made_by_me {
   =================*/
 
 /*Back to top - only for small mobile screen views*/
+.backtotop {
+  position: absolute;
+  bottom: -1.5rem;
+  right: -1rem;
+  font-size: 1.2rem;
+}
+
+.backtotop a:link,
+.backtotop a:hover,
+.backtotop a:active,
+.backtotop a:visited {
+  color: var(--body-col);
+}
 
 /*================
   Responsivesnness
   ==================*/
 
 @media only screen and (min-width: 1024px) {
-  nav {
+  nav, .backtotop {
     display: none;
   }
+  
+  .subsection .code_box {
+  display: inline-block;
 }
 
 /*=============
