@@ -90,6 +90,20 @@ header h1 {
 nav {
   border-top: 0.3rem solid white;
   border-bottom: 0.3rem solid white;
+  border-bottom: solid 0.3rem;
+  border-image: linear-gradient(
+      to right,
+      hsl(239, 94%, 19%),
+      hsl(201, 100%, 36%),
+      hsl(190, 100%, 42%),
+      hsl(189, 75%, 75%),
+      hsl(190, 77%, 88%),
+      hsl(189, 75%, 75%),
+      hsl(190, 100%, 42%),
+      hsl(201, 100%, 36%),
+      hsl(239, 94%, 19%)
+    )
+    20;
 }
 
 nav ul {
@@ -127,17 +141,23 @@ main {
 
 section {
   border-left: solid 0.3rem;
+  border-bottom: solid 0.3rem;
   border-image: linear-gradient(
-      to bottom,
+      to bottom right,
       hsl(239, 94%, 19%),
       hsl(201, 100%, 36%),
       hsl(190, 100%, 42%),
       hsl(189, 75%, 75%),
-      hsl(190, 77%, 88%)
+      hsl(190, 77%, 88%),
+      hsl(189, 75%, 75%),
+      hsl(190, 100%, 42%),
+      hsl(201, 100%, 36%),
+      hsl(239, 94%, 19%)
     )
     20;
   padding: 1rem;
-  margin-top: 1rem;
+  margin: 1rem 1rem 0 0;
+  
 }
 
 section div {
@@ -146,6 +166,16 @@ section div {
 
 section h2 {
   font-size: 2rem;
+  border-bottom: solid 0.3rem;
+  border-image: linear-gradient(
+      to right,
+      hsl(239, 94%, 19%),
+      hsl(201, 100%, 36%),
+      hsl(190, 100%, 42%),
+      hsl(189, 75%, 75%),
+      hsl(190, 77%, 88%)
+    )
+    20;
 }
 
 section #list_sec_menu {
@@ -467,7 +497,7 @@ footer #made_by_me {
   ==================*/
 
 @media only screen and (min-width: 1024px) {
-  nav, .backtotop {
+   backtotop {
     display: none;
   }
   
