@@ -1,4 +1,7 @@
 https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
+https://www.w3.org/2009/cheatsheet/
+https://caniuse.com/
+https://www.w3.org/WAI/test-evaluate/preliminary/
 
 <span class="really-look-at-me-text"></span> - Bold & Italic
 
