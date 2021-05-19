@@ -157,7 +157,6 @@ section {
     20;
   padding: 1rem;
   margin: 1rem 1rem 0 0;
-  
 }
 
 section div {
@@ -165,6 +164,7 @@ section div {
 }
 
 section h2 {
+  padding-left: 1rem;
   font-size: 2rem;
   border-bottom: solid 0.3rem;
   border-image: linear-gradient(
@@ -238,6 +238,7 @@ section .subsection {
 }
 .code_box code {
   line-height: 1.5;
+  word-wrap: break-word;
 }
 
 /*===================
@@ -357,8 +358,6 @@ section .subsection {
 
 /*LIST IMAGE EXAMPLES*/
 
-#list_image_examples ul {
-}
 
 #list_image_examples ul li {
   font-size: 150%;
@@ -497,12 +496,16 @@ footer #made_by_me {
   ==================*/
 
 @media only screen and (min-width: 1024px) {
-   backtotop {
+  /*remove unneeded elements*/
+  .backtotop {
     display: none;
   }
-  
+
+  /*Layout*/
+
   .subsection .code_box {
-  display: inline-block;
+    display: inline-block;
+  }
 }
 
 /*=============
@@ -529,10 +532,6 @@ footer #made_by_me {
   body {
     scroll-behavior: auto;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  /* animation styles go here */
 }
 
 /*======================
