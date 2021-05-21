@@ -1,4 +1,6 @@
 https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/
+https://dev.w3.org/html5/html-author/charref
+https://google.github.io/styleguide/htmlcssguide.html
 https://www.w3.org/2009/cheatsheet/
 https://caniuse.com/
 https://www.w3.org/WAI/test-evaluate/preliminary/
