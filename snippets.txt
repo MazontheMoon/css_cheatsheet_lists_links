@@ -3,6 +3,7 @@ https://dev.w3.org/html5/html-author/charref
 https://google.github.io/styleguide/htmlcssguide.html
 https://www.w3.org/2009/cheatsheet/
 https://caniuse.com/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 https://www.w3.org/WAI/test-evaluate/preliminary/
 
 <span class="really-look-at-me-text"></span> - Bold & Italic
