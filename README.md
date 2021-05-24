@@ -20,6 +20,8 @@
 ## Versioning
 
 Version 1.1 - Initial content
+Version 2.1 - Style
+Version 3.1 - Testing
 
 ## Authors
 * **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
@@ -50,6 +52,18 @@ Examples:
 * Font Awesome
 * Google fonts
 * Coolors.co
+
+## Table of Contents
+1. Heading title
+2. Nav menu
+3. Section 1 - Lists
+  3.a Intro
+  3.b Subsection 1 - list-style-type
+  3.c Subsection 2 - list-style-position
+  3.d Subsection 3 - list-style-image
+  3.e Subsection 4 - list-style
+4. Section 2 - Links
+5. Footer
 
 ## Acknowledgments
 We would like to offer our appreciation to Spotify and the *This is:Ramin Dwanji* playlist for providing the suitable background music for this project
