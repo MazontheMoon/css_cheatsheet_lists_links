@@ -51,8 +51,7 @@ p,
 a,
 li,
 code {
-  font-family: Verdana, sans-serif; /*fallback*/
-  font-family: var(--font);
+  font-family: var(--font, Verdana, sans-serif);
 }
 
 /*================
@@ -89,7 +88,6 @@ header h1 {
 =========*/
 nav {
   border-top: 0.3rem solid white;
-  border-bottom: 0.3rem solid white;
   border-bottom: solid 0.3rem;
   border-image: linear-gradient(
       to right,
@@ -450,7 +448,6 @@ footer #made_by_me {
 #made_by_me a {
   font-size: 1.5rem;
   padding: 0.25rem;
-  padding: 0.25rem;
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -568,7 +565,7 @@ footer #made_by_me {
 
   /*remove unneeded elements*/
   nav,
-  backtotop {
+  .backtotop {
     display: none;
   }
 
