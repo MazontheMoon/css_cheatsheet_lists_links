@@ -5,6 +5,8 @@ https://www.w3.org/2009/cheatsheet/
 https://caniuse.com/
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 https://www.w3.org/WAI/test-evaluate/preliminary/
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
 
 <span class="really-look-at-me-text"></span> - Bold & Italic
 
