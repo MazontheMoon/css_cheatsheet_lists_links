@@ -22,6 +22,7 @@
 Version 1.1 - Initial content
 Version 2.1 - Style
 Version 3.1 - Testing
+Version 4.1 - Update content (add marker pseudo-element)
 
 ## Authors
 * **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
@@ -62,6 +63,7 @@ Examples:
   3.c Subsection 2 - list-style-position
   3.d Subsection 3 - list-style-image
   3.e Subsection 4 - list-style
+  3.f Subsection 4 - marker
 4. Section 2 - Links
 5. Footer
 
