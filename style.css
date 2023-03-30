@@ -237,6 +237,7 @@ section .subsection {
 .code_box code {
   line-height: 1.5;
   word-wrap: break-word;
+  margin: 0.5rem;
 }
 
 /*===================
@@ -364,6 +365,14 @@ section .subsection {
     var(--code-border-col, #caf0f8)
   );
 }
+
+/*MARKER EXAMPLES*/
+#list_marker_subsec ul li::marker {
+  color: green;
+  font-size: 2rem;
+}
+
+
 
 /*LINK STYLING*/
 
