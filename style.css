@@ -367,11 +367,18 @@ section .subsection {
 }
 
 /*MARKER EXAMPLES*/
+#list_marker_subsec ul {
+list-style-position: inside;
+}
+
 #list_marker_subsec ul li::marker {
   color: green;
   font-size: 2rem;
 }
 
+#list_marker_subsec ul li:nth-of-type(even)::marker {
+  content: "🧡 ";
+}
 
 
 /*LINK STYLING*/
