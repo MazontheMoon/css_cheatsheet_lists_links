@@ -19,10 +19,12 @@
 
 ## Versioning
 
-Version 1.1 - Initial content
-Version 2.1 - Style
-Version 3.1 - Testing
-Version 4.1 - Update content (add marker pseudo-element)
+* Version 1.1 - Initial content
+* Version 2.1 - Style
+* Version 3.1 - Testing
+* Version 4.1 - Update content (add marker pseudo-element)
+* Version 5.1 - Update content (add link best practices)
+
 
 ## Authors
 * **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
