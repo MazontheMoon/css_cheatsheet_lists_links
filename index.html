@@ -292,8 +292,20 @@ Finding your way around
             &lt;!--for user generated content -- &gt; <br>
             &lt;a rel="ugc" href="#"&gt;&lt;/a&gt; <br><br>
             &lt;!-- for &apos;no follows&apos; -- &gt; <br>
-            &lt;a rel="nofollow" href="#"&gt;&lt;/a&gt; <br>
+            &lt;a rel="nofollow" href="#"&gt;&lt;/a&gt; <br><br>
+            &lt;!-- for &apos;no oppener&apos; -- &gt; <br>
+            &lt;a rel="nooppener" href="#"&gt;&lt;/a&gt; <br><br>
+            &lt;!-- for &apos;no referor&apos; -- &gt; <br>
+            &lt;a rel="noreferer" href="#"&gt;&lt;/a&gt; <br>
           </code>
+         </div>
+         <div class="code_box">
+          <p><u>HTML tip</u></p>
+          <p>A link with <b>target="_blank"</b> will be opened in a new tab with a null name, opening a new, unnamed tab with every link click...which can lead to many many tabs.</p>
+          <p>This problem can be fixed by providing a tab context name.</p>
+          <p>By including the targetattribute with a case-sensitive value — such as...</p>
+            <p><b>&lt;a href="registration.html" target="reg"&gt;Register Now&lt;/a&gt;</b></p>
+            <p>...the first click on this link will open the registration form in a new reg tab. (extra clicks will reload the registration in the reg browsing context, without opening any additional tabs)</p>
          </div>
         <!--backtotop shortcut-->
         <div class="backtotop"><a class="toplink" href="#top"> <i class="far fa-arrow-alt-circle-up"></i></a></div>
